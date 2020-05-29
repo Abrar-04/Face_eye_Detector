@@ -50,13 +50,6 @@ def box():
     cv2.destroyAllWindows()
 
 
-    f = tk.Tk()
-    f.geometry("500x500")
-    f.title("Loading")
-    tkinter.messagebox.showinfo("Ok")
-    f.mainloop()
-
-
 b=tk.Button(root,text="Detect",height=5,width=15,font=('Comic Sans MS',25,'bold'),bg='DarkOrchid3',fg='Yellow',command=box)
 b.place(relx=0.5,rely=0.5,anchor='c')
 tk.mainloop()
